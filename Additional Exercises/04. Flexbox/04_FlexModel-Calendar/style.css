@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+div, section {
+    display: flex;
+    align-items: center;
+}
+
+div {
+    max-width: 65vw;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1em 0.5em 3em 0.5em;
+    flex-grow: 1;
+}
+
+section{
+    flex-wrap: wrap;
+}
+
+.week span {
+    width: 80%;
+    height: 50px;
+}
+
+.week div {
+    width: 100%;
+}
+
+span:nth-child(1), span:nth-child(7) {
+    flex-basis: 100%;
+}
+
+.notes span{
+    width: 20%;
+    height: 166px;
+}

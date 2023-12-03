@@ -1,0 +1,29 @@
+body {
+    background-color: #EEEEEE;
+    margin: 2em;
+    height: 100%;
+}
+
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    justify-content: space-between;
+    gap: 2em;
+}
+
+li {
+    justify-content: center;
+    background-color: #ffffff;
+    border: 0.4rem solid #000000;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.63);
+}
+
+img {
+    align-self: center;
+}
+

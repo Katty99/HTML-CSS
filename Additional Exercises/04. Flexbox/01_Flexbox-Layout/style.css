@@ -1,0 +1,39 @@
+body {
+    background-color: #EEEEEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    font-family: "Arial", sans-serif;
+    font-weight: 1;
+    box-shadow: #C8C8C8 0.2em 0.2em 0.2em 0.2em;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+header {
+    min-height: 90px;
+}
+
+footer {
+    min-height: 60px;
+}
+
+main {
+    flex: 8 1 40rem;
+    min-height: 180px;
+}
+
+aside {
+    flex: 2 1 20rem;;
+}
