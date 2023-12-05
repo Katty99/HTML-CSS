@@ -20,7 +20,7 @@ li {
     border: 0.4rem solid #000000;
     padding: 1rem;
     margin: 0.5rem;
-    box-shadow: 10px 10px 41px 0px rgba(0,0,0,0.63);
+    box-shadow: 10px 10px 41px 0 rgba(0,0,0,0.63);
 }
 
 img {

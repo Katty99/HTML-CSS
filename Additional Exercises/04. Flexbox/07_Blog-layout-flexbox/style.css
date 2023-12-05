@@ -1,0 +1,88 @@
+body {
+    font-family: Georgia, serif;
+    font-size: 27px;
+    background-color: rgb(238, 238, 238);
+    padding: 2em;
+    margin-right: 4em;
+    margin-left: 4em;
+    max-width: 100%;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+main {
+    width: 70%;
+}
+
+header p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+aside {
+    max-width: 30%;
+    margin-left: 5em;
+    align-self: flex-start;
+}
+
+article {
+    justify-content: space-between;
+}
+
+.first {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.second {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+img {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    padding: 0.5rem;
+}
+
+.quote {
+    display: flex;
+    align-items: flex-start;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: grey;
+    border-left: 10px solid #DDDDDD;
+    padding-left: 40px;
+    align-self: flex-start;
+    width: 130em;
+}
+
+blockquote :nth-child(2) {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
