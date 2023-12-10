@@ -1,0 +1,260 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+body {
+    background-image: url("images/background.png");
+}
+
+h1 {
+    color: #68347B;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    gap: 20%;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1em;
+    font-family: Arial, serif;
+}
+
+.text {
+    align-items: center;
+    text-align: center;
+}
+
+.text h1 {
+    margin-bottom: 0;
+}
+
+.text p {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.need-a-website {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    margin-top: 5%;
+}
+
+.need-a-website div {
+    max-width: 30%;
+    text-align: left;
+}
+
+.need-a-website img {
+    align-self: center;
+    width: 10%;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.our-team h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.our-team .people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.our-team .people div {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 30%;
+}
+
+.people div h3,
+.people div h4,
+.people div p {
+    text-align: center;
+    margin: 5px;
+}
+
+.people div img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.newsletter {
+    background-image: url("images/purple-background.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter .subscribe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.newsletter p {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+input {
+    padding: 0.5em 3em;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.testimonials .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.testimonials .content div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 30%;
+}
+
+.content div p,
+.content div h3,
+.content div h4 {
+    text-align: center;
+}
+
+.content div img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div {
+    flex: 1;
+}
+
+footer h4 {
+    font-size: 150%;
+    margin-bottom: 1em;
+}
+
+.info > p {
+    font-size: 120%;
+}
+
+.info > h3 {
+    font-size: 200%;
+}
+
+.contacts > div {
+    display: flex;
+}
+
+.contacts > div > i {
+    align-self: center;
+    padding-right: 1em;
+}
+
+.sitemap ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sitemap ul li {
+    flex: 1 0 50%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+}
+
+@media (min-width: 320px) and (max-width: 1280px) {
+    header {
+        gap: 1em;
+        justify-content: space-between;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .need-a-website div {
+        max-width: 100%;
+    }
+
+    .our-team .people div {
+        display: flex;
+    }
+
+    .newsletter .subscribe {
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer > div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sitemap ul li {
+        flex: 1 0 50%;
+    }
+
+    .contacts > div {
+        margin-bottom: 1em;
+    }
+}
