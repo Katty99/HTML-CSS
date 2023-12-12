@@ -1,0 +1,166 @@
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,700";
+@import "https://fonts.googleapis.com/css?family=PT+Serif";
+
+body {
+    margin: 0 auto;
+}
+
+.first-part {
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.navbar {
+    display: flex;
+    gap: 1em;
+}
+
+.logo {
+    width: 5%;
+    height: 5%;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+}
+
+.intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 50px 50px 200px 100px;
+}
+
+.intro > span {
+    font-size: 40px;
+}
+
+.second-part {
+    display: flex;
+    padding: 100px 100px;
+    gap: 2em;
+    border-bottom: 1px solid gray;
+}
+
+.second-part > div > span {
+    font-size: 40px;
+}
+
+.second-part > div > p {
+    padding-bottom: 15px;
+}
+
+.business-aims, .objectives {
+    padding-right: 30px;
+}
+
+span {
+    font-family: "PT Serif", serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: "PT Sans", sans-serif;
+}
+
+button {
+    padding: 10px 15px;
+    color: #B0825C;
+    border: 1px solid #B0825C;
+}
+
+.third-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.third-part div span {
+    color: #B0825C;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sponsor-images {
+    display: flex;
+    gap: 3em;
+}
+
+.image {
+    border-radius: 50%;
+    background-color: #D0D0D0;
+}
+
+.sponsor-images img {
+    width: 50px;
+    height: 50px;
+    background-color: #D0D0D0;
+    margin: 30px;
+}
+
+.partners {
+    text-align: center;
+}
+
+.footer {
+    background-color: #171720;
+}
+
+.nav {
+    display: flex;
+    gap: 2em;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.nav div {
+    margin-left: 50px;
+}
+
+.nav div span {
+    color: white;
+    font-size: 20px;
+    padding-left: 38px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+    color: #AEA297;
+    line-height: 2em;
+    font-size: 10px;
+}
+
+.copyright {
+    margin-left: 100px;
+    padding: 5px;
+    color: #AEA297;
+}

@@ -68,6 +68,9 @@ header nav ul {
 .our-team h2 {
     text-align: center;
     margin-bottom: 2em;
+    border-bottom: 2px solid black;
+    width: 10%;
+    align-self: center;
 }
 
 .our-team .people {
@@ -132,6 +135,9 @@ input {
 .testimonials h2 {
     text-align: center;
     margin-bottom: 2em;
+    border-bottom: 2px solid black;
+    width: 10%;
+    align-self: center;
 }
 
 .testimonials .content {
