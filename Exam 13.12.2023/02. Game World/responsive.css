@@ -1,0 +1,76 @@
+@media (max-width: 600px) {
+    .col-md-6.col-12 {
+        display: flex;
+        gap: 1em;
+    }
+
+    .tm-site-title {
+        font-size: 1.5em;
+    }
+
+    .tm-site-description {
+        font-size: 0.7em;
+    }
+
+    .tm-header-inner {
+        display: flex;
+        justify-content: center;
+        padding-top: 20em;
+    }
+
+    .col-md-6.col-12 {
+        display: flex;
+    }
+
+    .tm-site-text-box h1 {
+        align-self: flex-end;
+    }
+
+    .tm-site-logo {
+        align-self: flex-end;
+        width: 50px;
+        height: 50px;
+    }
+
+    .tm-welcome-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tm-welcome-section h2 {
+        text-align: center;
+        margin: 0 1.5em;
+    }
+
+    .tm-paging-links nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tm-gallery-page {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .row {
+        margin-right: 0;
+    }
+
+    .tm-gallery {
+        margin-left: 20%;
+    }
+
+    .tm-gallery-item {
+        max-width: 80%;
+    }
+
+    .tm-cta-section,
+    .tm-cta-section article,
+    .tm-description-figure{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

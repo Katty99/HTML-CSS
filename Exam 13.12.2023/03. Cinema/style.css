@@ -1,0 +1,166 @@
+@import "https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap";
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+body {
+    font-family: Ubuntu, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 1em;
+}
+
+.left-part {
+    display: flex;
+}
+
+.left-part h1 {
+    padding-right: 0.5em;
+    border-right: 2px solid #DBDBDB;
+    color: #313131;
+}
+
+.left-part p {
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    align-self: flex-end;
+    color: #808080;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 5px;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #696969;
+    padding: 1em;
+    background-color: #ECECEC;
+}
+
+.navigation ul li a:hover {
+    background-color: #62DBB1;
+    color: black;
+}
+
+.image-text {
+    background-color: #62DBB1;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-text img {
+    width: 100%;
+}
+
+.image-text p {
+    padding: 2em 4em;
+    text-align: center;
+    align-self: center;
+    width: 80%;
+}
+
+.options {
+    display: flex;
+    gap: 2em;
+    background-color: #353434;
+    padding: 100px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option .icon {
+    background-color: #62DBB1;
+}
+
+.fa {
+    color: white;
+    font-size: 40px;
+    padding: 0.5em;
+}
+
+.option span {
+    color: white;
+    padding: 1em 2em;
+    border-bottom: 2px solid white;
+}
+
+.option p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #5B5956;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+.subscribe h2 {
+    color: #5F5F5F;
+    margin-bottom: 0;
+}
+
+.subscribe p {
+    color: #C3BCB8;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-size: 12px;
+}
+
+button {
+    padding: 1em 2em;
+    background-color: #974D21;
+    border: #974D21;
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    background-color: #353434;
+    padding: 5em;
+    gap: 2em;
+}
+
+.bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom div h3 {
+    color: white;
+}
+
+.bottom div p {
+    text-align: center;
+    font-size: 15px;
+    color: #5B5956;
+}
+
+footer {
+    background-color: #429773;
+    padding: 2em;
+}
+footer p {
+    text-align: center;
+    color: #62DBB1;
+}
+
+footer p strong {
+    color: white;
+}
